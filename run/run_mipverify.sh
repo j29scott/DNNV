@@ -1,3 +1,5 @@
-cd "$(dirname "$0")"
+file_dir="$(dirname "$0")" 
+cd $file_dir
+cd ..
 . .env.d/openenv.sh
-python3 -m dnnv $1 --network N $2 --mipverify --vnnlib
+cd $file_dirpython3 -m dnnv $1 --network N $2 --mipverify --vnnlib
