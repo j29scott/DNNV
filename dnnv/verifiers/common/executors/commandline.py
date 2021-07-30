@@ -49,7 +49,8 @@ class CommandLineExecutor(VerifierExecutor):
                 logger.debug(f"[STDERR]:{line}")
                 self.error_lines.append(line)
             if proc.returncode != 0:
-                raise self.verifier_error(f"Return code: {proc.returncode}")
+                print(f"WARNING! Bad Return code: {proc.returncode}")
+                # raise self.verifier_error(f"Return code: {proc.returncode}")
         finally:
             if proc is not None:
                 proc.stderr.close()
