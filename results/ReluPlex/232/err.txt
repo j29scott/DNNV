@@ -1,0 +1,4 @@
+2021-07-30 14:26:11,590 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+2021-07-30 14:26:11,643 - INFO - Starting command bash /home/ubuntu/DNNV/run/run_reluplex.sh /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/prop_2.vnnlib /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/ACASXU_run2a_3_6_batch_2000.onnx
+2021-07-30 14:26:11,644 - INFO - Writing output to data/1627652690.9754963/ReluPlex/232/output.log
+2021-07-30 14:36:22,715 - WARNING - Killing process 1217315 due to wall time timeout.

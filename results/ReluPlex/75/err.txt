@@ -1,0 +1,3 @@
+2021-07-30 13:55:03,519 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+2021-07-30 13:55:03,528 - INFO - Starting command bash /home/ubuntu/DNNV/run/run_reluplex.sh /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/prop_5.vnnlib /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/ACASXU_run2a_1_8_batch_2000.onnx
+2021-07-30 13:55:03,528 - INFO - Writing output to data/1627652690.9754963/ReluPlex/75/output.log

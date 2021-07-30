@@ -1,0 +1,8 @@
+bash /home/ubuntu/DNNV/run/run_reluplex.sh /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/prop_9.vnnlib /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/ACASXU_run2a_1_7_batch_2000.onnx
+
+
+--------------------------------------------------------------------------------
+
+
+Closing open env: DNNV (/home/ubuntu/DNNV)
+2021-07-30 13:55:07.344356: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: UNKNOWN ERROR (303)
