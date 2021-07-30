@@ -1,0 +1,8 @@
+starttime=2021-07-30T12:06:13.325721+00:00
+returnvalue=0
+walltime=4.573518004000107s
+cputime=4.314412441s
+cputime-cpu52=4.314412441s
+memory=331821056B
+blkio-read=0B
+blkio-write=0B
