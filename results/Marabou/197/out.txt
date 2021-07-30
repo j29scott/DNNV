@@ -1,0 +1,10 @@
+starttime=2021-07-30T12:11:54.910565+00:00
+terminationreason=walltime
+exitsignal=9
+walltime=601.0026726979995s
+cputime=600.722575272s
+cputime-cpu20=0.000060340s
+cputime-cpu49=600.722514932s
+memory=1136132096B
+blkio-read=0B
+blkio-write=0B
