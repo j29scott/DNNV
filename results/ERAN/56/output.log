@@ -1,0 +1,40 @@
+bash /home/ubuntu/DNNV/run/run_eran.sh /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/prop_6.vnnlib /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/ACASXU_run2a_1_6_batch_2000.onnx
+
+
+--------------------------------------------------------------------------------
+
+
+Closing open env: DNNV (/home/ubuntu/DNNV)
+2021-07-30 12:06:08.675479: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: UNKNOWN ERROR (303)
+Verifying property:
+Forall(X, ((((X[numpy.unravel_index(2, N.input_shape[0])] > -0.499204121) | (X[numpy.unravel_index(2, N.input_shape[0])] < -0.499999896) | (X[numpy.unravel_index(1, N.input_shape[0])] > -0.11140846) | (X[numpy.unravel_index(3, N.input_shape[0])] > 0.5) | (X[numpy.unravel_index(4, N.input_shape[0])] < -0.5) | (X[numpy.unravel_index(1, N.input_shape[0])] < -0.499999896) | (X[numpy.unravel_index(3, N.input_shape[0])] < -0.5) | (X[numpy.unravel_index(0, N.input_shape[0])] > 0.700434925) | (X[numpy.unravel_index(0, N.input_shape[0])] < -0.129289109) | (X[numpy.unravel_index(4, N.input_shape[0])] > 0.5)) & ((X[numpy.unravel_index(2, N.input_shape[0])] > -0.499204121) | (X[numpy.unravel_index(2, N.input_shape[0])] < -0.499999896) | (X[numpy.unravel_index(3, N.input_shape[0])] > 0.5) | (X[numpy.unravel_index(4, N.input_shape[0])] < -0.5) | (X[numpy.unravel_index(3, N.input_shape[0])] < -0.5) | (X[numpy.unravel_index(1, N.input_shape[0])] < 0.11140846) | (X[numpy.unravel_index(0, N.input_shape[0])] > 0.700434925) | (X[numpy.unravel_index(0, N.input_shape[0])] < -0.129289109) | (X[numpy.unravel_index(1, N.input_shape[0])] > 0.499999896) | (X[numpy.unravel_index(4, N.input_shape[0])] > 0.5))) | ((N(X)[numpy.unravel_index(4, N.output_shape[0])] > N(X)[numpy.unravel_index(0, N.output_shape[0])]) & (N(X)[numpy.unravel_index(1, N.output_shape[0])] > N(X)[numpy.unravel_index(0, N.output_shape[0])]) & (N(X)[numpy.unravel_index(3, N.output_shape[0])] > N(X)[numpy.unravel_index(0, N.output_shape[0])]) & (N(X)[numpy.unravel_index(2, N.output_shape[0])] > N(X)[numpy.unravel_index(0, N.output_shape[0])]))))
+
+Verifying Networks:
+N:
+Input_0                         : Input([1 1 1 5], dtype=float32)
+Flatten_0                       : Flatten(Input_0, axis=1)
+Gemm_0                          : Gemm(Flatten_0, ndarray(shape=(5, 50)), ndarray(shape=(50,)))
+Relu_0                          : Relu(Gemm_0)
+Gemm_1                          : Gemm(Relu_0, ndarray(shape=(50, 50)), ndarray(shape=(50,)))
+Relu_1                          : Relu(Gemm_1)
+Gemm_2                          : Gemm(Relu_1, ndarray(shape=(50, 50)), ndarray(shape=(50,)))
+Relu_2                          : Relu(Gemm_2)
+Gemm_3                          : Gemm(Relu_2, ndarray(shape=(50, 50)), ndarray(shape=(50,)))
+Relu_3                          : Relu(Gemm_3)
+Gemm_4                          : Gemm(Relu_3, ndarray(shape=(50, 50)), ndarray(shape=(50,)))
+Relu_4                          : Relu(Gemm_4)
+Gemm_5                          : Gemm(Relu_4, ndarray(shape=(50, 50)), ndarray(shape=(50,)))
+Relu_5                          : Relu(Gemm_5)
+Gemm_6                          : Gemm(Relu_5, ndarray(shape=(50, 5)), ndarray(shape=(5,)))
+
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+This network has 301 neurons.
+dnnv.verifiers.eran
+  result: unknown
+  time: 4.4541
