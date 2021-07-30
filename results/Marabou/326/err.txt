@@ -1,0 +1,4 @@
+2021-07-30 12:27:59,744 - INFO - LXCFS is not available, some host information like the uptime leaks into the container.
+2021-07-30 12:27:59,747 - INFO - Starting command bash /home/ubuntu/DNNV/run/run_marabou.sh /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/prop_6.vnnlib /home/ubuntu/DNNV/vnncomp2021/benchmarks/acasxu/ACASXU_run2a_4_6_batch_2000.onnx
+2021-07-30 12:27:59,748 - INFO - Writing output to data/1627646875.3531098/Marabou/326/output.log
+2021-07-30 12:38:00,830 - WARNING - Killing process 1158462 due to wall time timeout.
